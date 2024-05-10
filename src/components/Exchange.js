@@ -1,5 +1,4 @@
 export default function Exchange(props) {
-
     let exchangeRate = [
         {currency: 'USD (доллар США)',
         rate: 91.82},
@@ -10,7 +9,6 @@ export default function Exchange(props) {
         {currency: 'TRY (турецкая лира)',
         rate: 2.85}
     ]
-
     return(
         <div className="contents">
             <h2>Обменный курс:</h2>
